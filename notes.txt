@@ -1,0 +1,17 @@
+===================================================
+ELECTRONICS INVOICE GENERATOR - QUICK NOTES
+===================================================
+
+1. Dependencies:
+   - Python 3.x
+   - ReportLab: pip install reportlab
+
+2. Project Entry Point:
+   - Run 'python main.py' from root directory.
+
+3. PDF Storage:
+   - Output files are saved as invoice_YYYYMMDD_HHMMSS.pdf in the working directory.
+   - Output PDFs are listed in .gitignore to keep repository clean.
+
+4. Testing:
+   - Run 'python -m unittest discover tests' to verify PDF generation pipeline.
