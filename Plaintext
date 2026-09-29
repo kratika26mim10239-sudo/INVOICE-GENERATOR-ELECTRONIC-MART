@@ -1,0 +1,17 @@
+electronics-invoice-generator/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── statement.md
+├── results.md
+├── notes.txt
+├── main.py
+│
+├── src/
+│   ├── __init__.py
+│   └── invoice_generator.py
+│
+└── tests/
+    ├── __init__.py
+    └── test_invoice.py
